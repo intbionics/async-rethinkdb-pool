@@ -21,7 +21,8 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        "rethinkdb>=2.3.0.post6"
+        "rethinkdb>=2.3.0.post6",
+        "tenacity>=5.0.0",
     ],
     license="MIT license",
     zip_safe=False,
